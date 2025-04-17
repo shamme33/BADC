@@ -19,14 +19,14 @@
       </Text>
       <TextField fx:id="nameTextField" layoutX="71.0" layoutY="46.0" />
       <TextField fx:id="emailTextField" layoutX="71.0" layoutY="98.0" />
-      <Label layoutX="85.0" layoutY="322.0" prefHeight="32.0" prefWidth="306.0" />
+      <Label fx:id="outputLabel" layoutX="193.0" layoutY="434.0" prefHeight="32.0" prefWidth="306.0" />
       <Text layoutX="14.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="57.498046875" />
       <Text layoutX="20.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" />
       <Text layoutX="22.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of  birth" />
       <Text layoutX="29.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" />
       <Text layoutX="26.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Street" />
       <Text layoutX="23.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vallage" />
-      <Button layoutX="72.0" layoutY="371.0" mnemonicParsing="false" text="Save" />
+      <Button layoutX="264.0" layoutY="329.0" mnemonicParsing="false" onAction="#saveButtonOnClick" prefHeight="62.0" prefWidth="165.0" text="Save" />
       <TextField fx:id="vallageTextField" layoutX="85.0" layoutY="255.0" />
       <TextField fx:id="streetTextField" layoutX="85.0" layoutY="217.0" />
       <RadioButton fx:id="maleRadioButton" layoutX="85.0" layoutY="185.0" mnemonicParsing="false" text="Male" />
