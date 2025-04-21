@@ -1,42 +1,32 @@
-package com.example.badc.Nazmun_Nahar.supplier3;
+package com.example.badc.Nazmun_Nahar;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.*;
 
-public class supplier3  {
-
-    @FXML
+public class supplier3
+{
+    @javafx.fxml.FXML
+    private ToggleGroup stockToggleGroup;
+    @javafx.fxml.FXML
     private TextField DescriptionTextField;
-
-    @FXML
+    @javafx.fxml.FXML
     private RadioButton InStockRadioButton;
-
-    @FXML
+    @javafx.fxml.FXML
     private TextField NameTextField;
-
-    @FXML
+    @javafx.fxml.FXML
     private RadioButton OutOfStockRadioButton;
-
-    @FXML
-    private ComboBox<?> PriceCombobox;
-
-    @FXML
+    @javafx.fxml.FXML
+    private ComboBox PriceCombobox;
+    @javafx.fxml.FXML
     private TextField ProductTextField;
-
-    @FXML
+    @javafx.fxml.FXML
     private TextArea ProductupdatedsuccessfullyTextArea;
 
-    @FXML
-    private ToggleGroup stockToggleGroup;
-
-    @FXML
-    void UpdateProductOnAction(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void initialize() {
     }
 
+    @javafx.fxml.FXML
+    public void UpdateProductOnAction(ActionEvent actionEvent) {
+    }
 }
