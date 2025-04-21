@@ -1,51 +1,38 @@
-package com.example.badc.Nazmun_Nahar.supplier2;
+package com.example.badc.Nazmun_Nahar;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 
-public class supplier2 {
-
-    @FXML
+public class supplier2
+{
+    @javafx.fxml.FXML
+    private TableColumn PriceColumn;
+    @javafx.fxml.FXML
+    private ComboBox ItemSuppliedCombobox;
+    @javafx.fxml.FXML
+    private RadioButton PendingPaymenrRadiobox;
+    @javafx.fxml.FXML
     private TextArea ConfirmationMessageTextArea;
-
-    @FXML
+    @javafx.fxml.FXML
+    private TextField SupplierIdTextField;
+    @javafx.fxml.FXML
+    private TableColumn QuantityColumn;
+    @javafx.fxml.FXML
+    private TableColumn ItemColumn;
+    @javafx.fxml.FXML
     private DatePicker DOBDatePicker;
-
-    @FXML
-    private TableColumn<?, ?> ItemColumn;
-
-    @FXML
-    private ComboBox<?> ItemSuppliedCombobox;
-
-    @FXML
+    @javafx.fxml.FXML
     private RadioButton PaidRadiobox;
 
-    @FXML
-    private RadioButton PendingPaymenrRadiobox;
-
-    @FXML
-    private TableColumn<?, ?> PriceColumn;
-
-    @FXML
-    private TableColumn<?, ?> QuantityColumn;
-
-    @FXML
-    private TextField SupplierIdTextField;
-
-    @FXML
-    void ConfirmOnActionButton(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void initialize() {
     }
 
-    @FXML
-    void GenerateBillOnAction(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void ConfirmOnActionButton(ActionEvent actionEvent) {
     }
 
+    @javafx.fxml.FXML
+    public void GenerateBillOnAction(ActionEvent actionEvent) {
+    }
 }
