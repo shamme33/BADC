@@ -17,7 +17,8 @@ public class supplier4
     public final ArrayList<CheckStock> checkStocks = new ArrayList();
     @javafx.fxml.FXML
     public void initialize() {
-        CheckStock checkStock = new CheckStock(123, 50);
+        ArrayList<Supplier> supplier4list = new ArrayList<>();
+        CheckStock checkStock = new CheckStock(123, 50, 60);
     }
 
     @javafx.fxml.FXML
