@@ -1,21 +1,27 @@
-package com.example.badc.Nazmun_Nahar.supplier4;
+package com.example.badc.Nazmun_Nahar;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-public class supplier4 {
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
-    @FXML
+public class supplier4
+{
+    @javafx.fxml.FXML
     private TextField ProductIdTextField;
-
-    @FXML
+    @javafx.fxml.FXML
     private TextArea StockQuantityTextArea;
-
-    @FXML
-    void CheckStockOnAction(ActionEvent event) {
-
+    public final ArrayList<CheckStock> checkStocks = new ArrayList();
+    @javafx.fxml.FXML
+    public void initialize() {
+        CheckStock checkStock = new CheckStock(123, 50);
     }
 
+    @javafx.fxml.FXML
+    public void CheckStockOnAction(ActionEvent actionEvent) {
+
+    }
 }
