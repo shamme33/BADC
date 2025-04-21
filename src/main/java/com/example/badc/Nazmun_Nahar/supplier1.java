@@ -1,41 +1,36 @@
 package com.example.badc.Nazmun_Nahar;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
 
-public class supplier1 {
+import java.awt.event.ActionEvent;
 
-    @FXML
-    private TextField AddressTextField;
-
-    @FXML
+public class supplier1
+{
+    @javafx.fxml.FXML
     private RadioButton ApproveRadiobox;
-
-    @FXML
+    @javafx.fxml.FXML
     private TextField ContactInformationTextField;
-
-    @FXML
+    @javafx.fxml.FXML
+    private RadioButton RejectRadiobox;
+    @javafx.fxml.FXML
+    private Label SupplierRegistrationLabel;
+    @javafx.fxml.FXML
+    private TextField AddressTextField;
+    @javafx.fxml.FXML
+    private ToggleGroup licenseToggleGroup;
+    @javafx.fxml.FXML
     private TextField NameTextField;
-
-    @FXML
+    @javafx.fxml.FXML
     private TextField ProductSupplierTextField;
 
-    @FXML
-    private RadioButton RejectRadiobox;
-
-    @FXML
-    private Label SupplierRegistrationLabel;
-
-    @FXML
-    private ToggleGroup licenseToggleGroup;
-
-    @FXML
-    void RegisterOnAction(ActionEvent event) {
-
+    @javafx.fxml.FXML
+    public void initialize() {
     }
 
+    @javafx.fxml.FXML
+    public void RegisterOnAction(ActionEvent actionEvent) {
+    }
 }
