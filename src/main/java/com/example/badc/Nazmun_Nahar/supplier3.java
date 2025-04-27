@@ -3,6 +3,8 @@ package com.example.badc.Nazmun_Nahar;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
 
+import java.util.ArrayList;
+
 public class supplier3
 {
     @javafx.fxml.FXML
@@ -24,6 +26,7 @@ public class supplier3
 
     @javafx.fxml.FXML
     public void initialize() {
+        ArrayList<Supplier> supplier3list = new ArrayList<>();
     }
 
     @javafx.fxml.FXML

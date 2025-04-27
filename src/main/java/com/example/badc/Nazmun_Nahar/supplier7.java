@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TextField;
 
+import java.util.ArrayList;
+
 public class supplier7
 {
     @javafx.fxml.FXML
@@ -17,6 +19,7 @@ public class supplier7
 
     @javafx.fxml.FXML
     public void initialize() {
+        ArrayList<Supplier> supplier7list = new ArrayList<>();
     }
 
     @javafx.fxml.FXML

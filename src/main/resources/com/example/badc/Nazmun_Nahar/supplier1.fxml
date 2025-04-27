@@ -29,6 +29,8 @@
             <ToggleGroup fx:id="licenseToggleGroup" />
          </toggleGroup></RadioButton>
       <RadioButton fx:id="RejectRadiobox" layoutX="277.0" layoutY="242.0" mnemonicParsing="false" text="Reject" toggleGroup="$licenseToggleGroup" />
-      <Button layoutX="207.0" layoutY="294.0" mnemonicParsing="false" onAction="#RegisterOnAction" text="Register" />
+      <Button layoutX="116.0" layoutY="295.0" mnemonicParsing="false" onAction="#RegisterOnAction" text="Register" />
+      <Button layoutX="260.0" layoutY="295.0" mnemonicParsing="false" onAction="#addToArrayListForSupplierOnAction" text="Add To ArrayList for Supplier" />
+      <Label fx:id="showError" layoutX="161.0" layoutY="348.0" prefHeight="18.0" prefWidth="239.0" />
    </children>
 </AnchorPane>

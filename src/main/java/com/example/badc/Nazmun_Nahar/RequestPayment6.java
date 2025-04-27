@@ -4,21 +4,18 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-import java.util.ArrayList;
-
-public class supplier6
+public class RequestPayment6
 {
     @javafx.fxml.FXML
-    private TextField ProductIdTextArea;
+    private TextField deliveryIdTextField;
     @javafx.fxml.FXML
-    private TextArea successfullMassageTextArea;
+    private TextArea paymentRequestSubmittedTextArea;
 
     @javafx.fxml.FXML
     public void initialize() {
-        ArrayList<Supplier> supplier6list = new ArrayList<>();
     }
 
     @javafx.fxml.FXML
-    public void DeleteProductOnAction(ActionEvent actionEvent) {
+    public void paymentRequestOnAction(ActionEvent actionEvent) {
     }
 }
